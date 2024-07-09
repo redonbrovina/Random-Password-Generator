@@ -1,0 +1,76 @@
+body {
+    margin: 60px 0px 0px 70px;
+    background-color: #1F2937;
+    color: white;
+    font-family: Karla, 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+#first-txt {
+    margin-bottom: 1px;
+}
+
+#sec-txt {
+    color: #55F991;
+    margin-top: 1px;
+}
+
+#under-txt {
+    color: #D5D4D8;
+}
+
+button {
+    background-color: #10B981;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: Karla, 'Courier New', Courier, monospace;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #3cd9a5;
+}
+
+#first-el {
+    background-color: #273549;
+    margin-right: 50px;
+    color: #55F991;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+#sec-el {
+    background-color: #273549;
+    margin-left: 50px;
+    color: #55F991;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+.elements {
+    display: flex;
+    justify-content: baseline;
+    align-items: left;
+    text-align: left;
+    margin: 0;
+}
+
+#btn-two {
+    background-color: #273549;
+    margin-right: 110px;
+    border: 2px solid #2735491e;
+}
+#btn-three {
+    margin-left: 110px;
+    background-color: #273549;
+    border: 2px solid #2735491e;
+
+}
+#cpy-txt {
+    font-size: 15px;
+    margin-top: 30px;   
+}
+
+
