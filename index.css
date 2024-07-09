@@ -63,6 +63,10 @@ button:hover {
     margin-right: 130px;
     border: 2px solid #2735491e;
 }
+#btn-two:hover {
+    background-color: #344e74;
+}
+
 #btn-three {
     margin-left: 130px;
     font-size: 16px;
@@ -70,6 +74,11 @@ button:hover {
     border: 2px solid #2735491e;
 
 }
+
+#btn-three:hover {
+    background-color: #344e74;
+}
+
 #cpy-txt {
     font-size: 15px;
     margin-top: 30px;   
