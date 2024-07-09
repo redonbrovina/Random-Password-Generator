@@ -59,11 +59,13 @@ button:hover {
 
 #btn-two {
     background-color: #273549;
-    margin-right: 110px;
+    font-size: 16px;
+    margin-right: 130px;
     border: 2px solid #2735491e;
 }
 #btn-three {
-    margin-left: 110px;
+    margin-left: 130px;
+    font-size: 16px;
     background-color: #273549;
     border: 2px solid #2735491e;
 
