@@ -23,13 +23,17 @@ function generator() {
 var cpyConf = document.getElementById("cpy-txt");
 
 function copyOne() {
-    navigator.clipboard.writeText(firstEl.textContent);
-    cpyConf.textContent = "First Password Copied !";
+    if(!(firstEl.textContent === "")){
+        navigator.clipboard.writeText(firstEl.textContent);
+        cpyConf.textContent = "First Password Copied !";
+    }
 }
 
 function copyTwo() {
-    navigator.clipboard.writeText(secEl.textContent);
-    cpyConf.textContent = "Second Password Copied !";
+    if(!(secEl.textContent === "")){
+        navigator.clipboard.writeText(secEl.textContent);
+        cpyConf.textContent = "Second Password Copied !";
+    }
 }
 
 
