@@ -7,51 +7,79 @@ body {
 }
 
 #first-txt {
-    margin-bottom: 1px;
+    animation-name: fadeIn;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
 }
 
 #sec-txt {
-    color: #55F991;
-    margin-top: 1px;
+    animation-name: toGreen;
+    animation-delay: 4s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
 }
 
 #under-txt {
     color: #D5D4D8;
+    animation-name: fadeIn;
+    color: #1F2937;
+    animation-duration: 1s;
+    animation-delay: 1.3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
 }
 
 button {
-    background-color: #10B981;
-    color: white;
     padding: 10px;
     border: none;
     border-radius: 6px;
+    background-color: #1F2937;
+    color: #1F2937;
     font-size: 20px;
     font-family: Karla, 'Courier New', Courier, monospace;
-    transition: 0.3s;
+    animation-name: fadeInBtn;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
 }
+
 button:hover {
     background-color: #3cd9a5;
+    transition-duration: 0.5s;
 }
 
 #first-el {
-    background-color: #273549;
+    background-color: #1F2937;
+    color: #1F2937;
     margin-right: 50px;
-    color: #55F991;
     padding: 10px;
     border: none;
     border-radius: 6px;
     min-width: 290px;
     min-height: 34px;
+    animation-name: fadeInEl;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
 }
 #sec-el {
-    background-color: #273549;
+    background-color: #1F2937;
+    color: #1F2937;
     margin-left: 50px;
-    color: #55F991;
     padding: 10px;
     border: none;
     border-radius: 6px;
     min-width: 290px;
     min-height: 34px;
+    animation-name: fadeInEl;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
 }
 .elements {
     display: flex;
@@ -61,7 +89,7 @@ button:hover {
 }
 
 #btn-two {
-    background-color: #273549;
+    background-color: #1F2937;
     font-size: 16px;
     margin-right: 130px;
     border: 2px solid #2735491e;
@@ -73,7 +101,7 @@ button:hover {
 #btn-three {
     margin-left: 130px;
     font-size: 16px;
-    background-color: #273549;
+    background-color: #1F2937;
     border: 2px solid #2735491e;
 
 }
@@ -86,5 +114,50 @@ button:hover {
     font-size: 15px;
     margin-top: 30px;   
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        color: white;
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeInEl {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        background-color: #273549;
+        color: #55F991;
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeInBtn {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        background-color: #10B981;
+        color: white;
+        opacity: 100%;
+    }
+}
+
+@keyframes toGreen {
+    0% {
+        color: white;
+    }
+    100% {
+        color: #10B981;
+    }
+}
+
 
 
